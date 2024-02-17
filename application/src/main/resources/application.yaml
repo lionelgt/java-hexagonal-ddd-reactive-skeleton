@@ -1,0 +1,10 @@
+spring:
+  jackson:
+    property-naming-strategy: SNAKE_CASE
+
+rest:
+  clients:
+    git-hub:
+      url: https://api.github.com
+      services:
+        info: /repos/lionelgt/java-hexagonal-ddd-reactive-skeleton      
